@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxEdu.API", "MaxEdu.API\MaxEdu.API.csproj", "{68482836-F56A-4320-A0DE-8FB6A9EBA044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxEdu.API", "MaxEdu.API\MaxEdu.API.csproj", "{68482836-F56A-4320-A0DE-8FB6A9EBA044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxEdu.Infrastructure", "MaxEdu.Infrastructure\MaxEdu.Infrastructure.csproj", "{E071090F-DBCE-4498-B4E3-C08FC7C40CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{68482836-F56A-4320-A0DE-8FB6A9EBA044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68482836-F56A-4320-A0DE-8FB6A9EBA044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68482836-F56A-4320-A0DE-8FB6A9EBA044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E071090F-DBCE-4498-B4E3-C08FC7C40CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E071090F-DBCE-4498-B4E3-C08FC7C40CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E071090F-DBCE-4498-B4E3-C08FC7C40CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E071090F-DBCE-4498-B4E3-C08FC7C40CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6663F977-13D1-4F57-9DEF-E5806F2C43DE}
 	EndGlobalSection
 EndGlobal
